@@ -66,8 +66,6 @@ const miModulo = (() => {
 
   //Turno de la computadora
     const turnoComputadora = ( puntosMinimos ) => {
-    
-    if ( !puntosMinimos ) throw new Error ('Puntos minimos es necesario');
   
 
     let puntosComputadora = 0;
